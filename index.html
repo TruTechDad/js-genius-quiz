@@ -7,7 +7,7 @@
     <!-- Minified version -->
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 <style>
-    .start {
+    .quiz-section {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -26,11 +26,14 @@
         </section>
 
         <section class="quiz-section">
-
+            <h2>Question 1:</h2>
+            <textarea id="answer" placeholder="Type your answer here"></textarea>
+            <button id="submit">Submit Answer</button>
         </section>
         
         <section class="quiz-section">
-
+            <p id="result"></p>
+            <button id="next">Next Question</button>
         </section>
         
     </main>
