@@ -19,19 +19,19 @@
         <h1>JS Genius Quiz</h1>
     </header>
     <main>
-        <section class="quiz-section">
+        <section id="start" class="quiz-section">
             <h1>Welcome to the JS Genius Coding Quiz</h1>
             <p>Get ready to test your coding prowess as you have just 15 seconds to answer each question. The clock is ticking, so let's dive into the world of JavaScript!"</p>
             <button id="startButton">Start Quiz</button>
         </section>
 
-        <section class="quiz-section">
-            <h2>Question 1:</h2>
+        <section id="quiz" class="quiz-section"  style="display: none;">
+            <h2 id="question">Question 1:</h2>
             <textarea id="answer" placeholder="Type your answer here"></textarea>
             <button id="submit">Submit Answer</button>
         </section>
         
-        <section class="quiz-section">
+        <section id="feedback" class="quiz-section"  style="display: none;">
             <p id="result"></p>
             <button id="next">Next Question</button>
         </section>
