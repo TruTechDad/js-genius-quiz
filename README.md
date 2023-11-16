@@ -5,3 +5,6 @@ Step into the world of JavaScript mastery with our interactive coding quiz, meti
 
 ## Screen Shot
 ![Screenshot of JS Genius Quiz](Screenshot%202023-11-15%20at%2011.59.40 PM.png)
+
+## Link
+[Link to deploy site](https://TruTechDad.github.io/js-genius-quiz)
